@@ -1,0 +1,25 @@
+<head>
+  <title>Tweets for #limetray</title>
+</head>
+
+<body>
+  {{> tweets}}
+  {{> plot}}
+</body>
+
+<template name="plot">
+	<div class="row-fluid">
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Tweet count VS time in mins.
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-2" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</template>
